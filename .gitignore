@@ -54,13 +54,13 @@ freeline.py
 freeline/
 freeline_project_description.json
 
-# okHttp_AndroidStudio
-okHttp_AndroidStudio/*.iml
-okHttp_AndroidStudio/.gradle
-okHttp_AndroidStudio/local.properties
-okHttp_AndroidStudio/.idea/workspace.xml
-okHttp_AndroidStudio/.idea/libraries
-okHttp_AndroidStudio/.DS_Store
-okHttp_AndroidStudio/build
-okHttp_AndroidStudio/captures
-okHttp_AndroidStudio/.externalNativeBuild
+# OkHttp_AndroidStudio
+OkHttp_AndroidStudio/*.iml
+OkHttp_AndroidStudio/.gradle
+OkHttp_AndroidStudio/local.properties
+OkHttp_AndroidStudio/.idea/workspace.xml
+OkHttp_AndroidStudio/.idea/libraries
+OkHttp_AndroidStudio/.DS_Store
+OkHttp_AndroidStudio/build
+OkHttp_AndroidStudio/captures
+OkHttp_AndroidStudio/.externalNativeBuild
