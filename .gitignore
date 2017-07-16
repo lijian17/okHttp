@@ -53,3 +53,14 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# okHttp_AndroidStudio
+okHttp_AndroidStudio/*.iml
+okHttp_AndroidStudio/.gradle
+okHttp_AndroidStudio/local.properties
+okHttp_AndroidStudio/.idea/workspace.xml
+okHttp_AndroidStudio/.idea/libraries
+okHttp_AndroidStudio/.DS_Store
+okHttp_AndroidStudio/build
+okHttp_AndroidStudio/captures
+okHttp_AndroidStudio/.externalNativeBuild
