@@ -55,12 +55,12 @@ freeline/
 freeline_project_description.json
 
 # OkHttp_AndroidStudio
-OkHttp_AndroidStudio/*.iml
-OkHttp_AndroidStudio/.gradle
-OkHttp_AndroidStudio/local.properties
-OkHttp_AndroidStudio/.idea/workspace.xml
-OkHttp_AndroidStudio/.idea/libraries
-OkHttp_AndroidStudio/.DS_Store
-OkHttp_AndroidStudio/build
-OkHttp_AndroidStudio/captures
-OkHttp_AndroidStudio/.externalNativeBuild
+/OkHttp_AndroidStudio/*.iml
+/OkHttp_AndroidStudio/.gradle
+/OkHttp_AndroidStudio/local.properties
+/OkHttp_AndroidStudio/.idea/workspace.xml
+/OkHttp_AndroidStudio/.idea/libraries
+/OkHttp_AndroidStudio/.DS_Store
+/OkHttp_AndroidStudio/build
+/OkHttp_AndroidStudio/captures
+/OkHttp_AndroidStudio/.externalNativeBuild
