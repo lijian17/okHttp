@@ -1,10 +1,13 @@
-package net.dxs.okhttp;
+package net.dxs.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import net.dxs.okhttp.R;
 
 import java.io.IOException;
 
@@ -78,6 +81,7 @@ public class SimpleOkHttpActivity extends AppCompatActivity implements View.OnCl
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 final String res = response.body().string();
+                Log.d("GET", "get=" + res);
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
@@ -107,6 +111,7 @@ public class SimpleOkHttpActivity extends AppCompatActivity implements View.OnCl
             @Override
             public void onResponse(Call call, Response response) throws IOException {
                 final String res = response.body().string();
+                Log.d("POST", "post=" + res);
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {

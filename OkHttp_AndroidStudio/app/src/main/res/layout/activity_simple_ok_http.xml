@@ -16,10 +16,14 @@
         android:layout_height="wrap_content"
         android:text="post请求" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/tv_show"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
+    </ScrollView>
 
 </LinearLayout>
